@@ -1,12 +1,13 @@
 const fs = require('fs');
 const lodash = require('lodash');
 const jsonServer = require('json-server');
+const http = require('http');
 
 const port = process.env.PORT || 3000;
-const endpoints = [],
+let endpoints = [],
   obj = {};
-const dbPath = __dirname + '/public/db/';
-const files = fs.readdirSync(dbPath);
+let dbPath = __dirname + '/public/db/';
+let files = fs.readdirSync(dbPath);
 
 files.forEach((file) => {
   let filePath = fs.readFileSync(dbPath + file);
@@ -33,6 +34,6 @@ const middlewares = jsonServer.defaults();
 app.use(jsonServer.bodyParser);
 app.use(middlewares);
 app.use(router);
-app.listen(port);
+app.listen(port, '0.0.0.0');
 
 module.exports = app;

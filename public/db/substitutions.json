@@ -1,0 +1,59 @@
+{
+  "substitutions": [
+    {
+      "ndc10": "27628888383",
+      "substitutions": [
+        {
+          "name": "Flecainide Acetate tablet",
+          "drugIdentifier": {
+            "package": {
+              "identifierType": "GTIN12",
+              "identifier": "77010447736"
+            }
+          }
+        },
+        {
+          "name": "Perphenazine tablet",
+          "drugIdentifier": {
+            "package": {
+              "identifierType": "GTIN12",
+              "identifier": "95355953113"
+            }
+          }
+        },
+        {
+          "name": "glipizide extended release",
+          "drugIdentifier": {
+            "package": {
+              "identifierType": "GCN",
+              "identifier": "32109415025"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "ndc10": "55312554903",
+      "substitutions": [
+        {
+          "name": "etodolac capsule",
+          "drugIdentifier": {
+            "package": {
+              "identifierType": "GTIN12",
+              "identifier": "97632863393"
+            }
+          }
+        },
+        {
+          "name": "ondansetron tablet",
+          "drugIdentifier": {
+            "package": {
+              "identifierType": "gcn",
+              "identifier": "45308281588"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

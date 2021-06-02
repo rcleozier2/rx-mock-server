@@ -9,8 +9,8 @@
           "strength": "60mg",
           "drugIdentifier": {
             "package": {
-              "identifierType": "GTIN12",
-              "identifier": "77010447736"
+              "identifierType": "NDC10",
+              "identifier": "7701044773"
             }
           }
         },
@@ -20,8 +20,8 @@
           "strength": "60mg",
           "drugIdentifier": {
             "package": {
-              "identifierType": "GTIN12",
-              "identifier": "95355953113"
+              "identifierType": "NDC10",
+              "identifier": "9535595311"
             }
           }
         },
@@ -31,8 +31,8 @@
           "strength": "60mg",
           "drugIdentifier": {
             "package": {
-              "identifierType": "GCN",
-              "identifier": "32109415025"
+              "identifierType": "NDC10",
+              "identifier": "3210941502"
             }
           }
         }
@@ -47,8 +47,8 @@
           "strength": "60mg",
           "drugIdentifier": {
             "package": {
-              "identifierType": "GTIN12",
-              "identifier": "97632863393"
+              "identifierType": "NDC10",
+              "identifier": "9763286339"
             }
           }
         },
@@ -58,8 +58,8 @@
           "strength": "60mg",
           "drugIdentifier": {
             "package": {
-              "identifierType": "gcn",
-              "identifier": "45308281588"
+              "identifierType": "NDC10",
+              "identifier": "4530828158"
             }
           }
         }

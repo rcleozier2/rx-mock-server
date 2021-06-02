@@ -4,7 +4,9 @@
       "ndc10": "27628888383",
       "substitutions": [
         {
-          "name": "Flecainide Acetate tablet",
+          "name": "Flecainide Acetate",
+          "form": "tab",
+          "strength": "60mg",
           "drugIdentifier": {
             "package": {
               "identifierType": "GTIN12",
@@ -13,7 +15,9 @@
           }
         },
         {
-          "name": "Perphenazine tablet",
+          "name": "Perphenazine",
+          "form": "tab",
+          "strength": "60mg",
           "drugIdentifier": {
             "package": {
               "identifierType": "GTIN12",
@@ -22,7 +26,9 @@
           }
         },
         {
-          "name": "glipizide extended release",
+          "name": "glipizide",
+          "form": "extended release",
+          "strength": "60mg",
           "drugIdentifier": {
             "package": {
               "identifierType": "GCN",
@@ -36,7 +42,9 @@
       "ndc10": "55312554903",
       "substitutions": [
         {
-          "name": "etodolac capsule",
+          "name": "etodolac",
+          "form": "capsule",
+          "strength": "60mg",
           "drugIdentifier": {
             "package": {
               "identifierType": "GTIN12",
@@ -45,7 +53,9 @@
           }
         },
         {
-          "name": "ondansetron tablet",
+          "name": "ondansetron",
+          "form": "tab",
+          "strength": "60mg",
           "drugIdentifier": {
             "package": {
               "identifierType": "gcn",
